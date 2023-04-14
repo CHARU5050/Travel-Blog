@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Dancing+Script:wght@700&display=swap');
+
+.controls video{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.controls{
+    display: flex;
+    min-height:100vh;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+.controlbutton{
+    display: flex;
+    flex-direction: column;
+    padding:0.3rem;
+    border-radius: 5rem;
+    background:rgba(0,0,0,.7);
+    position: absolute;
+    top:10rem;
+    right:0;
+
+
+}
+.btn{
+    height:2rem;
+    width:2rem;
+    display:inline-block;
+    cursor:pointer;
+    margin:0.7rem;
+    border-radius: 50%;
+
+}
+.controls .content{
+    text-align:center;
+}
+.controls .content h3{
+    font-size: 4.5rem;
+    color:white;
+    text-transform: uppercase;
+    text-shadow: 0.3rem 0.5rem rgba(0,0,0,.1);
+}
+.controls .content p{
+    font-size:4rem;
+    color:#fff;
+    font-family: 'Dancing Script', cursive;
+    text-shadow:
+    0 0 7px #fff ,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(4, 4, 63),
+    0 0 82px rgb(4, 4, 63),
+        0 0 92px rgb(4, 4, 63),
+    0 0 102px rgb(4, 4, 63),
+    0 0 151px rgb(4, 4, 63);
+    animation:glow 0.50s ease-in-out infinite alternate;
+
+
+
+}
+@keyframes glow{
+    100%{
+        text-shadow:
+        0 0 4px #fff ,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px rgb(4, 4, 63),
+    0 0 80px rgb(4, 4, 63),
+    0 0 90px rgb(4, 4, 63),
+    0 0 100px rgb(4, 4, 63),
+    0 0 150px rgb(4, 4, 63);;
+    }
+    0%{
+        text-shadow: 
+        0 0 4px #fff ,
+        0 0 10px #fff,
+        0 0 18px #fff,
+        0 0 38px rgb(4, 4, 63),
+        0 0 73px rgb(4, 4, 63),
+        0 0 80px rgb(4, 4, 63),
+        0 0 94px rgb(4, 4, 63),
+        0 0 350px rgb(4, 4, 63) ;
+        
+    
+}
+}
+.controls .button{
+    padding:20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    background:linear-gradient(rgb(45, 189, 217),blue);
+    color:rgb(4, 4, 63);
+    outline:none;
+}
+.btn.active{
+    background-color:rgb(45, 189, 217) ;
+}

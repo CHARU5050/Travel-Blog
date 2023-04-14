@@ -1,0 +1,131 @@
+body{
+    margin:0;
+}
+.navbar{
+    max-width: 100%;
+    display:flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin:0 ;
+    background:rgb(3, 1, 40);
+    color:white;
+  
+  
+  }
+  .logo {
+    font-size: 40px;
+    font-weight: 300;
+    margin:10px;
+  }
+  .logo span{
+    color:rgb(31, 149, 228);
+  }
+  .links{
+     margin-left: 20px;
+     display: flex;
+     align-items: center;
+    
+    
+  
+  }
+  .links a{
+    padding: 10px;
+    text-decoration: none;
+    font-size:25px;
+    color:white;
+    margin:10px;
+  
+  
+    
+  }
+  .links .link{
+    margin-right:150px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .links a:hover{
+   
+    color:rgb(31, 149, 228);
+
+  
+  }
+.user{
+  border:1px solid white;
+  border-radius:10px;
+  padding:5px;
+  margin-right: 10px;
+  color:rgb(31, 149, 228);
+  font-size: 20px;
+  display: flex;
+
+}
+.links button{
+  background-color: rgb(31, 149, 228);
+  border:1px solid white;
+  border-radius:10px;
+  padding:10px;
+  cursor: pointer;
+  color:rgb(3, 1, 40);
+  font-weight:1000;
+
+}
+footer{
+  padding: 10px;
+  border-top: 1px solid white;
+  padding-left:90px;
+  background-color: rgb(3, 1, 40);
+  align-items:center;
+  font-weight:300;
+
+  
+  color:white;
+
+  
+}
+footer h3{
+  color:rgb(31, 149, 228);
+}
+footer span{
+  color:rgb(5, 231, 243);
+  margin-right: 4px;
+}
+.footer{
+  display: flex;
+
+  margin:0 40px;
+  justify-content: space-between;
+  padding:0 30px;
+  
+
+}
+
+.footer .sub label{
+  font-size: 20px;
+  color:rgb(64, 97, 197)
+}
+.footer .sub input{
+  
+  border:3px solid white;
+  background-color: transparent;
+  color:white;
+  outline:none;
+  margin:10px;
+  width:300px;
+}
+.sub button{
+  background: linear-gradient(rgb(22, 164, 211),blue);
+  color:white;
+  border:1px solid blue;
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin:10px;
+
+}
+.container{
+  max-height:100vh;
+}
+
